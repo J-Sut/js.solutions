@@ -17,13 +17,14 @@ body {
 /* Color schemes */
 
 .demo-4 {
-	--color-text: #4b2cf2;
+	--color-text: #4f5252;
 	--color-link: #ec2525;
 	--color-link-hover: #fff;
-	--color-enter: #4b2cf2;
+	--color-enter: #4f5252;
 	--color-title: #ffffff;
-	--color-subtitle: #ec2525;
+	--color-subtitle: #c2e7ef;
 	--color-content: #1D4A57;
+
 	--font-alt: 400 5vw/1 'Poppins', serif;
 }
 
@@ -271,7 +272,7 @@ main {
 	border:none;
 	padding:10px 20px;
 	cursor:pointer;
-	margin: 20px;
+	margin: 25px;
 
 }
 
@@ -307,7 +308,7 @@ main {
 .content__subtitle {
 	font: var(--font-alt);
 	font-size: 1.5em;
-	color: var(--color-subtitle);
+	color: #F78133;
 	padding: 0.5em 0 0 0;
 	margin: 0;
 }
@@ -331,6 +332,7 @@ main {
 .enter  {
 	border: 1px solid white;
 	padding: 10px;
+	background-color: var(--color-subtitle)
 }
 
 .explore {
