@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2017, Codrops
  * http://www.codrops.com
  */
@@ -33,7 +33,7 @@
 		anime({
 			targets: DOM.intro,
 			translateY: {
-				value: '-200vh', 
+				value: '-200vh',
 				delay: 100,
 				duration: 2000,
 				easing: 'easeInOutQuad'
@@ -42,7 +42,7 @@
 
 		anime({
 			targets: DOM.path,
-			duration: 1200, 
+			duration: 1200,
 			easing: 'linear',
 			d: DOM.path.getAttribute('pathdata:id')
 		});
@@ -91,7 +91,7 @@
 				{value: 1, duration: 150, easing: 'linear'}
 			],
 			color: {
-				value: '#4b2cf2',
+				value: '#F78133',
 				duration: 1,
 				delay: (t,i,l) => (l-i-1)*7+150
 			}
@@ -100,3 +100,7 @@
 
 	init();
 };
+
+particlesJS.load('particles-js', 'js/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
